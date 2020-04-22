@@ -4,7 +4,7 @@ public class Block {
 
     public String hash;
     public String previousHash; //上一个区块的hash值
-    private String data; //每个区块存放的信息，这里我们存放的是一串字符串
+    public String data; //每个区块存放的信息，这里我们存放的是一串字符串
     private long timeStamp; //时间戳
     private int nonce;//挖矿者的工作量证明
 
