@@ -39,7 +39,7 @@ public class Main {
                 System.out.println("正在创建创世区块....... ");
                 bc.addBlock(new Block(sign_string, "0"));//创世块
             }else {
-                System.out.println("正在创建第" + (i+1) +"个区块链....... ");
+                System.out.println("正在创建第" + (i+1) +"个区块....... ");
                 bc.addBlock(new Block(sign_string,bc.get(bc.size()-1).hash));
             }
 
